@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="regtr.css">
+    <style>
+     body {
+         background-image: url(images/wow.png);
+         background-position: center;
+         background-size: cover;
+         font-family: sans-serif;
+         margin-top: 40px;
+         
+
+     }
+    </style>
+</head>
+<body>
+    <div class="regform"><h1>Registration Form</h1></div>
+    <div class="mane">
+      <form>
+          <div id="name">
+            <h2 class="name">Name</h2>
+            <input class="firstname" type="text" name="first_name"><br>
+            <label class="firstlabel">first name</label>
+            <input class="lastname" type="text" name="last_name">
+            <label class="lastlabel">Last Name</label>
+          </div>
+
+          <h2 class="name">Birthday</h2>
+          <input class="birth" type="month" id="bdaymonth" name="bdaymonth">
+          <label for="bdaymonth">Birthday</label>
+          <input type="submit">
+        <h2 class="name1">Gender</h2>
+          <div class="genders">
+            <select name="gender"> 
+                <option value="Others">Others</option> 
+                <option value="Male">Male</option> 
+                <option value="Female">Female</option>
+            </select> 
+          <input type="submit" value="Submit">
+        </div>
+        
+
+          <h2 class="name">Company</h2>
+          <input class="company" type="text" name="company">
+
+          <h2 class="name">Email</h2>
+          <input class="email" type="text" name="email">
+
+          <h2 class="name">Phone</h2>
+          <input class="code" type="text" name="area_code">
+          <label class="area-code">Area Code</label>
+          <input class="number" type="text" name="phone">
+          <label class="phone-number">Phone Number</label>
+
+          <h2 class="name">Subject</h2>
+          <select class="option" name="subject">
+          <option disabled="disabled" selected="selected">-Choose Option</option>
+          <option>Subject 0</option>
+          <option>Subject 1</option>
+          <option>Subject 2</option>
+        </select>
+
+         <button type="submit" style="margin-left:250px;">Register(submit)</button>
+      </form>
+    </div>
+</body>
+</html>
